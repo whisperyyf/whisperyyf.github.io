@@ -1,0 +1,94 @@
+
+html {
+  height: 100%;
+}
+
+@media screen and (max-width: 300px){
+	body {
+	  min-height: 100%;
+	  display: flex;
+	  flex-direction: column;
+	}
+
+}
+
+.public-header{
+	height:6%;
+	background: white;
+	color: white;
+}
+
+.public-header .header-logo a{
+	float: left;
+	width: 40%;
+	height: 3%;
+	color: #ec4550;
+	font-size:1.8em;
+	margin-top: 2%;
+	margin-left: 0%;
+	/*background: url(".../images/LOGO.png");*/
+}
+
+.public-header .header-logo-img a{
+	float: left;
+	width: 12%;
+	height:4%;
+	margin-top: 1%;
+	/*background: url(".../images/LOGO.png");*/
+}
+
+.public-header .navbar-brand > img {
+    /*display: inline-block;*/
+    float: left;
+    margin-right: 2%; 
+    margin-bottom: 5%;
+    width: 100%; 
+    height: 100%;
+}
+
+
+.public-header .header-nav{
+	float:right;
+}
+
+.public-header .header-nav .item{
+	float: left;
+	font-size: 1em;
+	margin-top: 9%;
+	margin-left: 0%;
+	color: #ec4550;
+}
+
+.public-header .header-nav a{
+	color: #ec4550;
+}
+
+.public-title{
+	text-align: center;
+	font-size: 1.8em;
+	height:0.2em;
+	margin-top: 4%;
+	color: #ec4550;
+}
+
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	width:60%;
+	overflow: hidden;
+}
+
+.content{
+	flex: 1;
+}
+
+.footer {
+	color: black;
+	height: 10%;
+	width: 100%
+}
+
+.footer-content{
+	color: black;
+	width: 60%
+}
