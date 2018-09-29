@@ -1,0 +1,118 @@
+
+.public-header{
+	height:70px;
+	background: white;
+	color: white;
+}
+
+.public-header .header-logo a{
+	float: left;
+	width: 300px;
+	height:50px;
+	color: #ec4550;
+	font-size:29px;
+	margin-top: 20px;
+
+	/*background: url(".../images/LOGO.png");*/
+}
+
+.public-header .header-logo-img a{
+	float: left;
+	width: 140px;
+	height:50px;
+	margin-top: 13px;
+	/*background: url(".../images/LOGO.png");*/
+}
+
+.public-header .navbar-brand > img {
+    /*display: inline-block;*/
+    float: left;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    width: 140px; 
+    height: 50px;
+}
+
+
+.public-header .header-nav{
+	float:right;
+}
+
+.public-header .header-nav .item{
+	float: left;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-left: 50px;
+	color: #ec4550;
+}
+
+.public-header .header-nav a{
+	color: #ec4550;
+}
+
+.public-title{
+	text-align: center;
+	font-size: 30px;
+	height:10px;
+	margin-top: 70px;
+	color: #ec4550;
+}
+
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	width:1000px;
+	overflow: hidden;
+}
+
+
+/*
+.public-footer{
+	margin-top: 50px;
+	height: 70px;
+	bottom: 0;
+	margin-top: 70px;
+	color: #3b3b3b;
+}*/
+
+.public-footer{
+	height:70px;
+	background: #3b3b3b;
+	color: white;
+	bottom: 0;
+}
+
+.public-footer .footer-logo{
+	width: 500px;
+	height:50px;
+	color: #3b3b3b;
+	font-size:25px;
+	padding-top: 23px;
+	text-align: center;
+}
+
+.back-to-top{
+	position:fixed;
+    bottom:30px;
+    right:120px;
+}
+#id_wrapper {
+    /* 設定高度最小為100%, 如果內容區塊很多, 可以長大 */
+    min-height: 100%;
+    /* 位置設為relative, 作為footer區塊位置的參考 */
+    position: relative;
+
+}
+
+.footer {
+    box-sizing: border-box;
+    /* 設定footer絕對位置在底部 */
+    /* position: absolute;
+    bottom: 0;*/
+    /* 展開footer寬度 */
+    width: 100%;
+    /* 設定footer的高度 */
+    height: 100px;
+	background: #3b3b3b;
+	margin-top: 70px;
+}

@@ -1,0 +1,86 @@
+
+.public-header{
+	height:70px;
+	background: #000000;
+	color: white;
+}
+
+.public-header .header-logo a{
+	float: left;
+	width: 200px;
+	height:50px;
+	color: white;
+	font-size:30px;
+	margin-top: 20px;
+
+	/*background: url(".../images/LOGO.png");*/
+}
+
+.public-header .header-nav{
+	float:right;
+}
+
+.public-header .header-nav .item{
+	float: left;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-left: 50px;
+}
+
+.public-header .header-nav a{
+	color: #FFFFFF;
+}
+
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	height: 100px;
+	width:1100px;
+}
+
+.public-container .index_panel{
+	position: relative;
+	margin: 0 auto;
+	width:1100px;
+	min-height: 800px;
+}
+
+.public-footer{
+	margin-top: 50px;
+	height: 70px;
+	background: #3b3b3b;
+	bottom: 0;
+}
+
+.public-footer .footer-logo{
+	width: 200px;
+	height:50px;
+	color: white;
+	font-size:25px;
+	padding-top: 23px;
+	padding-left: 690px;
+}
+
+.back-to-top{
+	position:fixed;
+    bottom:30px;
+    right:120px;
+}
+#id_wrapper {
+    /* 設定高度最小為100%, 如果內容區塊很多, 可以長大 */
+    min-height: 100%;
+    /* 位置設為relative, 作為footer區塊位置的參考 */
+    position: relative;
+}
+
+.footer {
+    box-sizing: border-box;
+    /* 設定footer絕對位置在底部 */
+    position: absolute;
+    bottom: 0;
+    /* 展開footer寬度 */
+    width: 100%;
+    /* 設定footer的高度 */
+    height: 70px;
+	background: #3b3b3b;
+}

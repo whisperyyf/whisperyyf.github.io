@@ -1,0 +1,59 @@
+
+.public-header{
+	height:70px;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.public-header .header-logo a{
+	float: left;
+	width: 400px;
+	height:50px;
+	color: white;
+	font-size:29px;
+	margin-top: 20px;
+	/*background: url(".../images/LOGO.png");*/
+}
+
+.public-header .header-nav{
+	float:right;
+}
+
+.public-header .header-nav .item{
+	float: left;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-left: 50px;
+}
+
+.public-header .header-nav a{
+	color: #FFFFFF;
+}
+
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	width:1100px;
+}
+
+
+.public-footer{
+	height: 150px;
+}
+
+.public-footer .footer-logo{
+	float: left;
+	width: 200px;
+	height:50px;
+	color: white;
+	font-size:25px;
+	padding-top: 23px;
+	padding-left: 690px;
+	/*font-family: "DIN";*/
+}
+
+.back-to-top{
+	position:fixed;
+    bottom:30px;
+    right:120px;
+}
